@@ -1,0 +1,19 @@
+# 1. The most important
+node_modules
+npm-debug.log
+
+# 2. Skip git history 
+.git
+.gitignore
+
+# 3. Skip environment secrets 
+.env
+.env.local
+
+# 4. Skip Docker files themselves
+Dockerfile
+.dockerignore
+
+# 5. Skip local build folders 
+dist
+build
